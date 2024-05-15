@@ -1,0 +1,74 @@
+body{
+	margin: 0px;
+}
+.coffee-header{
+	position: fixed;
+	left: 0px;
+	right: 0px;
+	height: 100px;
+	width: 100%;
+	background-color: #0a2d42;
+	margin: 0px;
+	z-index: 100;
+}
+
+.div-logo{
+	height: 10%;
+	margin: 10px;
+	float: left;
+ }
+.logo-text{
+	display: block;
+	font-weight: bold;
+	color: white;
+}
+
+.coffee-nav{
+	float: right;
+	height: 100%;
+	
+}
+
+.coffee-nav a{
+	color: white;
+	padding-right: 20px;
+	font-size: 15px;
+	padding-top: 12%;
+	display: inline-block;
+
+}
+.content{
+	position: absolute;
+	top: 78px;
+	width: 100%;
+}
+.image-content{
+	background-image: url("background-image.png");
+	height: 700px;
+	width: 100%;
+	text-align: center;
+
+}
+.quote{
+	color: white;
+	position: relative;
+	top: 20%;
+}
+
+.form{
+	width: 200px;
+	margin:0 auto;
+}
+.form input{
+	padding: 10px;
+	margin: 10px;
+}
+
+.form{
+	display: block;
+	float: right;
+	position: fixed;
+	color: aliceblue;
+	border:2px dotted salmon;
+	border-radius: 50px;
+}
